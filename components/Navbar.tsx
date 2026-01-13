@@ -37,3 +37,12 @@ export default function Navbar() {
     </nav>
   )
 }
+import { UserButton, SignedIn, SignedOut } from "@clerk/nextjs";
+
+<SignedOut>
+  <a href="/sign-in">Sign In</a>
+</SignedOut>
+
+<SignedIn>
+  <UserButton />
+</SignedIn>
