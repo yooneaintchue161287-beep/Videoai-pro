@@ -13,3 +13,5 @@
     "replicate": "^0.25.1"
   }
 }
+
+npm install @clerk/nextjs
